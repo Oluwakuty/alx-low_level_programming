@@ -3,12 +3,13 @@
  * main - Entry point
  * Return: Always eachtime 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	char x;
+
 	x = 'a';
 	while
-		(x <= 'z'){
+		(x <= 'z') {
 			putchar(x);
 			x++;
 		}
