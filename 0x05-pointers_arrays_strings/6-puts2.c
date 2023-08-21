@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * puts2 - prints character of a string
@@ -13,8 +12,8 @@ void puts2(char *str)
 
 	while (str[i] != '\0')
 	{
-		_putchar("%c", str[i]);
+		printf("%c", str[i]);
 		i += 2;
 	}
-	_putchar("\n");
+	_printf("\n");
 }
