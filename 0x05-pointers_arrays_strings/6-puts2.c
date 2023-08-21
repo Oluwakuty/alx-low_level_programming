@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * void puts2 - prints character of a string
+ * puts2 - prints character of a string
  * @str: variable string
  * Return: Always return 0
  */
