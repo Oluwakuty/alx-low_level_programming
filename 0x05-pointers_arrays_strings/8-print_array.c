@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** print_array - print array number
+/** 
+ * print_array - print array number
  * @a: parameters to be printed
  * @n: parameters to be printed
  * Return: Alwas return success 0
