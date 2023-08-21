@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atol - convert a string to an integer
+ * _atoi - convert a string to an integer
  * @s: pointer to convert
  * Return: Always return success 0
  */
@@ -22,7 +22,7 @@ int _atoi(char *s)
 
 	while (i < len && f == 0)
 	{
-		if (s[i] == '_')
+		if (s[i] == '-')
 			++d;
 		if (s[i] >= '0' && s[i] <= '9')
 		{
